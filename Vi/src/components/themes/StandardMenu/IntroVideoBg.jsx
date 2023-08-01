@@ -1,5 +1,5 @@
 import React from "react";
-import videobg from "../../../videos/home.mp4";
+import videobg from "../../../videos/code_numbers.mp4";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-scroll";
 import { scrollDuration } from "../../../config/commonConfig";
@@ -63,13 +63,13 @@ const StandardMenuVideoBgIntro = () => {
                 </Link>{" "}
               </div>
               <div className="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
-                <div className="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn">
+                <div className="bg-transparent rounded-pill d-inline-block p-3 shadow-lg wow zoomIn">
                   {" "}
                   <img
                     className="img-fluid rounded-pill d-block"
-                    src="images/web-developer.jpg"
-                    title="I'm Callum"
-                    alt="I'm David"
+                    src="images/vi-standing-transparent.png"
+                    title="I'm Vi"
+                    alt="I'm Vi"
                   />
                 </div>
               </div>

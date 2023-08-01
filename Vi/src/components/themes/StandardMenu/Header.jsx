@@ -15,7 +15,7 @@ const StandardMenuHeader = () => {
             {/* Logo */}
             <Link
               className="logo"
-              title="Callum"
+              title="Vi"
               smooth="easeInOutQuint"
               duration={scrollDuration}
               style={{ cursor: "pointer" }}
@@ -26,7 +26,7 @@ const StandardMenuHeader = () => {
                 setIsNavModalClose(true);
               }}
             >
-              <img src="images/logo.png" alt="Callum" />
+              <img src="images/vi_logo.png" alt="Vi" />
             </Link>
             {/* Logo End */}
           </div>
