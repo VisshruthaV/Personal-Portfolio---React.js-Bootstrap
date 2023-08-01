@@ -8,7 +8,7 @@ const StandardMenuVideoBgIntro = () => {
   return (
     <section id="home">
       <div className="hero-wrap">
-        <div className="hero-mask opacity-8 bg-primary" />
+        <div className="hero-mask opacity-9 bg-primary" />
         <div className="player hero-bg ">
           <video
             src={videobg}

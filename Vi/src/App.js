@@ -122,15 +122,16 @@ function App() {
               getStandardMenuIntro()}
 
             <AboutUs></AboutUs>
-            <Services></Services>
-            <Resume></Resume>
             <Portfolio></Portfolio>
+            <Resume></Resume>
+            <Contact></Contact>
+            {/* <Services></Services>
             <CallToAction></CallToAction>
             <FAQs></FAQs>
-            <Testimonials></Testimonials>
-            <Contact></Contact>
+            <Testimonials></Testimonials> */}
+            
           </div>
-          <Footer handleNavClick={handleNavClick}></Footer>
+          {/* <Footer handleNavClick={handleNavClick}></Footer> */}
         </div>
         {/* back to top */}
         <Tooltip text="Back to Top" placement="left">

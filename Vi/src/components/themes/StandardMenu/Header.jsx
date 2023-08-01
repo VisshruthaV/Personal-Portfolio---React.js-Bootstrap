@@ -94,16 +94,16 @@ const StandardMenuHeader = () => {
                     style={{ cursor: "pointer" }}
                     activeClass="active"
                     spy
-                    to="services"
+                    to="portfolio"
                     onClick={(e) => {
                       e.preventDefault();
                       setIsNavModalClose(true);
                     }}
                   >
-                    Services
+                    Portfolio
                   </Link>
                 </li>
-                <li className="nav-item">
+                 <li className="nav-item">
                   <Link
                     className="nav-link "
                     smooth="easeInOutQuint"
@@ -117,7 +117,7 @@ const StandardMenuHeader = () => {
                       setIsNavModalClose(true);
                     }}
                   >
-                    Resume
+                    Resume / Skills
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -128,13 +128,30 @@ const StandardMenuHeader = () => {
                     style={{ cursor: "pointer" }}
                     activeClass="active"
                     spy
-                    to="portfolio"
+                    to="contact"
                     onClick={(e) => {
                       e.preventDefault();
                       setIsNavModalClose(true);
                     }}
                   >
-                    Portfolio
+                    Contact
+                  </Link>
+                </li>
+               {/* <li className="nav-item">
+                  <Link
+                    className="nav-link "
+                    smooth="easeInOutQuint"
+                    duration={scrollDuration}
+                    style={{ cursor: "pointer" }}
+                    activeClass="active"
+                    spy
+                    to="services"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setIsNavModalClose(true);
+                    }}
+                  >
+                    Services
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -170,59 +187,42 @@ const StandardMenuHeader = () => {
                   >
                     Client
                   </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link "
-                    smooth="easeInOutQuint"
-                    duration={scrollDuration}
-                    style={{ cursor: "pointer" }}
-                    activeClass="active"
-                    spy
-                    to="contact"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      setIsNavModalClose(true);
-                    }}
-                  >
-                    Contact
-                  </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
           <div className="col-auto col-lg-2 d-flex justify-content-end ps-0">
             <ul className="social-icons">
-              <li className="social-icons-facebook">
-                <Tooltip text="Twitter" placement="bottom">
+              <li className="social-icons-linkedin">
+                <Tooltip text="LinkedIn" placement="bottom">
                   <a
-                    href="http://www.facebook.com/"
+                    href="https://www.linkedin.com/in/visshrutha-velumani/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fab fa-facebook" />
+                    <i className="fab fa-linkedin" />
                   </a>
                 </Tooltip>
               </li>
-              <li className="social-icons-twitter">
-                <Tooltip text="Twitter" placement="bottom">
+              <li className="social-icons-github">
+                <Tooltip text="Github" placement="bottom">
                   <a
-                    href="http://www.twitter.com/"
+                    href="https://github.com/VisshruthaV"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-github" />
                   </a>
                 </Tooltip>
               </li>
-              <li className="social-icons-instagram">
-                <Tooltip text="Twitter" placement="bottom">
+              <li className="social-icons-google">
+                <Tooltip text="Email" placement="bottom">
                   <a
-                    href="http://www.instagram.com/"
+                    href="mailto:visshrutha@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fab fa-instagram" />
+                    <i className="fab fa-google" />
                   </a>
                 </Tooltip>
               </li>
