@@ -19,14 +19,16 @@ const AboutUs = () => {
                <span className="fw-700 text-primary">Vi</span>sshrutha Velumani
               </span>
             </h2>
-            <p className="text-3">
+            <p className="text-2">
               I strive to lead my work with <span className="fw-700 shadow">evidence</span>. As data being the evidentiary foundation to all worldly functions,
-              I harness the power of data to transform my past work and future work in software engineering, data & business analytics, and
-              product management & development.
+              I harness the power of data to revolutionalize my past work and future work in software engineering, data & business analytics, and
+              product management & development. I show great <span className="fw-700 shadow">leadership</span> among my past projects and work experience, as I
+              have helped organizations skyrocket their consumer outreach and retention by <span className="fw-700 shadow">400%</span> and transformed their 
+              technological infrastructure that decreased customer churning by <span className="fw-700 shadow">40%</span>.
             </p>
-            <p className="text-3">
-               I hold a bachelor's in computer science from Wayne State University in Detroit, Michigan and a master's in business data analytics
-               from the University of Windsor in Windsor, Ontario. 
+            <p className="text-2">
+               I hold a bachelor's in <span className="fw-700 shadow">computer science</span> from Wayne State University in Detroit, Michigan and a master's 
+               in <span className="fw-700 shadow">business data analytics</span> from the University of Windsor in Windsor, Ontario. 
               Outside of academics & work, I love to immerse myself in art and dance - both of which I've been practicing from 5 years old! Favorite color? 
               I will let you take an educated guess.
             </p>
