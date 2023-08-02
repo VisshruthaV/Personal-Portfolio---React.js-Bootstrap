@@ -27,8 +27,8 @@ const StandardMenuVideoBgIntro = () => {
           <div className="container my-auto py-5 py-lg-0">
             <div className="row py-4">
               <div className="col-lg-7 text-center text-lg-start align-self-center order-1 order-lg-0">
-                <h1 className="text-11 fw-300 mb-0 text-uppercase">
-                  Hi, I'm Visshrutha Velumani, specializng in
+                <h1 className="text-9 fw-300 mb-0 text-uppercase">
+                  Hi, I'm <span className="shadow-lg">Vi Velumani</span>, specializing in
                 </h1>
                 <h2 className="text-12 fw-600 text-uppercase mb-0 ms-n1">
                   <Typewriter
@@ -39,7 +39,7 @@ const StandardMenuVideoBgIntro = () => {
                     }}
                   />{" "}
                 </h2>
-                <p className="text-5">based in Ontario, Canada.</p>
+                <p className="text-5">based out of Ontario, Canada.</p>
                 <Link
                   className="btn btn-dark rounded-0 smooth-scroll mt-3"
                   smooth="easeInOutQuint"

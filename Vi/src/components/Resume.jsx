@@ -38,6 +38,20 @@ const Resume = () => {
     },
   ];
 
+  const certificationsDetails = [
+    {
+      yearRange: "Jan 2023",
+      title: "Google Cloud Platform Digital Leader",
+      org: "Google Cloud",
+      pic: <img
+                    className="img-fluid wow heartBeat" data-wow-delay="1.3s"
+                    src="images/gcp_badge.png"
+                    title="gcp"
+                    alt="gcp"
+                    />,
+    },
+  ];
+
   const experienceDetails = [
     {
       yearRange: "Oct 2022 - Jul 2023",
@@ -152,7 +166,7 @@ const Resume = () => {
         <div className="row g-5 mt-5">
           {/* My Education */}
           <div className="col-lg-6 wow fadeInUp">
-            <h2 className="text-7 fw-600 mb-4 pb-2">My Education</h2>
+            <h2 className="text-7 fw-600 mb-4 pb-2"><span className="shadow-sm">My Education</span></h2>
             <div className="border-start border-3 border-primary ps-3">
               {educationDetails.length > 0 &&
                 educationDetails.map((value, index) => (
@@ -162,9 +176,20 @@ const Resume = () => {
                       {value.place} / {value.yearRange}
                         </p>
                     <p className="text-muted text-3">{value.descHead}</p>
-                    <p className="text-muted text-2">{value.desc}</p>
+                    <p className="text-muted text-1">{value.desc}</p>
                     <p className="text-muted text-3">{value.descHead2}</p>
-                    <p className="text-muted text-2">{value.desc2}</p>
+                    <p className="text-muted text-1">{value.desc2}</p>
+                    <hr className="my-4" />
+                  </div>
+                ))}
+            </div>
+            <h2 className="text-7 fw-600 mb-4 pb-2"><span className="shadow-sm">My Certifications</span></h2>
+            <div className="border-start border-3 border-primary ps-3">
+              {certificationsDetails.length > 0 &&
+                certificationsDetails.map((value, index) => (
+                  <div key={index}>
+                    <h3 className="text-5">{value.title} - {value.yearRange}</h3>
+                    <p className="text-center">{value.pic}</p>
                     <hr className="my-4" />
                   </div>
                 ))}
@@ -172,7 +197,7 @@ const Resume = () => {
           </div>
           {/* My Experience */}
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-            <h2 className="text-7 fw-600 mb-4 pb-2">My Experience</h2>
+            <h2 className="text-7 fw-600 mb-4 pb-2"><span className="shadow-sm">My Experience</span></h2>
             <div className="border-start border-3 border-primary ps-3">
               {experienceDetails.length > 0 &&
                 experienceDetails.map((value, index) => (

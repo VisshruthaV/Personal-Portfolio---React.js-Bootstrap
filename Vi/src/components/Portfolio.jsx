@@ -162,7 +162,7 @@ const Portfolio = () => {
             <span className="bg-primary text-dark px-2">Portfolio</span>
           </p>
           <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
-            Some of my most recent projects
+            My Best Work
           </h2>
           {/* Heading end*/}
           {/* Filter Menu */}

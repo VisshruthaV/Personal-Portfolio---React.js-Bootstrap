@@ -56,9 +56,17 @@ const Contact = () => {
   return (
     <section id="contact" className="section bg-primary">
       <div className="container">
+      {/* Heading */}
+          <p className="text-center mb-2 wow fadeInUp">
+            <span className="bg-light text-dark px-2 shadow">Contact Me</span>
+          </p>
+          <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
+            How Can I Be of Value To You?
+          </h2>
+          {/* Heading end*/}
         <div className="row">
           <div className="col-lg-5 text-center text-lg-start wow fadeInUp">
-            <h2 className="text-10 fw-600 mb-5">Let's Get In Touch</h2>
+            <h2 className="text-6 fw-600 mb-5">Let's Get In Touch</h2>
             <p className="text-3 mb-5">
               I am open to your ideas, suggestions, and anything you may want to convey to me. 
               I am also <span className="fw-600 shadow">actively looking for full-time roles</span> , 
@@ -114,7 +122,7 @@ const Contact = () => {
             className="col-lg-6 ms-auto mt-5 mt-lg-0 wow fadeInUp"
             data-wow-delay="0.3s"
           >
-            <h2 className="text-10 fw-600 text-center text-lg-start mb-5">
+            <h2 className="text-6 fw-600 text-center text-lg-start mb-5">
               Shoot Me A Message!
             </h2>
             {/* Contact Form */}
@@ -152,7 +160,7 @@ const Contact = () => {
                 </div>
                 <div className="col-12">
                   <label className="form-label" htmlFor="form-message">
-                    How Can I Help You?
+                    Your Message:
                   </label>
                   <textarea
                     id="form-message"
