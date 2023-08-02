@@ -1,73 +1,140 @@
 import React from "react";
-import resumeFile from "../documents/resume.pdf";
+import resumeFile from "../documents/Resume_ViVelumani.pdf";
 
 const Resume = () => {
   const educationDetails = [
     {
-      yearRange: "2015 - 2017",
-      title: "Master in Computer Engineering",
-      place: "Harvard University",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
+      yearRange: "Jan 2022 - May 2023",
+      title: "Master of Management in Business Data Analytics",
+      place: "University of Windsor",
+      descHead: "Relevant Courses: ",
+      desc:
+            <ul>
+                <li>Data Analytic Methods & Algorithms</li>
+                <li>Data Acquisition & Management </li>
+                <li>Predictive Modeling & Decision Making </li>
+                <li>Quantitative & Statistical Analytics </li>
+            </ul>,
     },
     {
-      yearRange: "2014 - 2015",
-      title: "Bachelor in Computer Engineering",
-      place: "University of California",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
-    },
-    {
-      yearRange: "2013 - 2014",
-      title: "International Science",
-      place: "Harvard University",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
+      yearRange: "Sep 2018 - Dec 2021",
+      title: "Bachelor of Science in Computer Science",
+      place: "Wayne State University",
+      descHead: "Relevant Courses: ",
+      desc:
+            <ul>
+                <li>Software Engineering</li>
+                <li>Data structures & algorithms </li>
+                <li>Database Management (SQL & PHP)</li>
+                <li>Operating Systems (Linux & Shell)</li>
+                <li>Engineering Statistics, Calculus, & Linear Algebra</li>
+            </ul>,
+      descHead2: "Recognitions / Distinctions: ",
+      desc2:
+            <ul>
+                <li>2019 WSU Dean's List</li>
+                <li>2020 WSU Dean's List</li>
+            </ul>,
     },
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2020 - current",
-      title: "Sr. Font End Developer",
-      place: "Apple Inc",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "Oct 2022 - Jul 2023",
+      title: "Director of Technology & Product Owner",
+      place: "Odette Product Management Club",
+      descHead: "Key Achievements: ",
+      desc:
+            <ul>
+                <li>Created and launched the club's data analytics functionalities</li>
+                <li>Reduced manual website tracking by 80% </li>
+                <li>Decreased customer churning by 40% </li>
+                <li>Increased feature-release productivity from 1 a week to 2 a week </li>
+                <li>Resolved painpoints by tracking product backlogs & conducting A/B testing</li>
+            </ul>,
     },
     {
-      yearRange: "2018 - 2020",
-      title: "Jr. Font End Developer",
-      place: "Dribbble Inc",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "Aug 2022 - Oct 2022",
+      title: "Software Product Portfolio Consultant & Developer",
+      place: "Odette Product Management Club",
+      descHead: "Key Achievements: ",
+      desc:
+            <ul>
+                <li>Created, developed, and launched the club website as the sole developer </li>
+                <li>Skyrocketed club outreach rates by 400% in 2.5 weeks</li>
+                <li>Improved UI/UX to maximize scroll and click rates </li>
+                <li>Multiplied website traffic by 25%-35% each week </li>
+                <li>Got promoted to the Director of Technology & Product Owner </li>
+            </ul>,
     },
     {
-      yearRange: "2017 - 2018",
-      title: "HTML Developer",
-      place: "Adobe Inc",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "Sep 2021 - Dec 2021",
+      title: "Software Engineering Intern",
+      place: "Acuitii",
+      descHead: "Key Achievements: ",
+      desc:
+           <ul>
+                <li>Resolved 8 bugs and added 4 new game features in 4 months </li>
+                <li>Optimized & reduced app run-time by 75% (2 sec. to 0.5 sec.)</li>
+                <li>Published 4 software documentation</li>
+                    <ul>
+                        <li>Software Requirements Specification </li>
+                        <li>Architecture Flow Models </li>
+                        <li>Sequence Diagrams</li>
+                        <li>UI/UX Design Plans </li>
+                    </ul>,
+            </ul>,
     },
   ];
 
   const skills = [
     {
-      name: "Web Design",
-      percent: 65,
+      name: "Python",
+      percent: 85,
     },
     {
-      name: "HTML/CSS",
+      name: "SQL",
       percent: 95,
     },
     {
-      name: "JavaScript",
+      name: "R",
+      percent: 75,
+    },
+    {
+      name: "Java",
       percent: 80,
     },
     {
-      name: "React JS",
-      percent: 70,
+      name: "C++",
+      percent: 75,
     },
     {
-      name: "Angular Js",
-      percent: 60,
+      name: "React.js",
+      percent: 75,
+      },
+    {
+      name: "Tableau",
+      percent: 95,
     },
     {
-      name: "Bootstrap",
-      percent: 99,
+      name: "Google Analytics",
+      percent: 90,
+    },
+    {
+      name: "Frontend & Backend Development",
+      percent: 90,
+    },
+    {
+      name: "Predictive Data Modeling",
+      percent: 95,
+    },
+    {
+      name: "SDLC Tools: Jira, Rally, Trello, Kanban",
+      percent: 95,
+    },
+    {
+      name: "Agile Product Development",
+      percent: 95,
     },
   ];
 
@@ -76,25 +143,28 @@ const Resume = () => {
       <div className="container">
         {/* Heading */}
         <p className=" text-center mb-2 wow fadeInUp">
-          <span className="bg-primary text-dark px-2">Resume</span>
+          <span className="bg-primary text-dark px-2">Resume / Skills</span>
         </p>
         <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
-          A summary of My Resume
+          A Shortened Summary Of My Resume
         </h2>
         {/* Heading end*/}
         <div className="row g-5 mt-5">
           {/* My Education */}
           <div className="col-lg-6 wow fadeInUp">
             <h2 className="text-7 fw-600 mb-4 pb-2">My Education</h2>
-            <div className="border-start border-2 border-primary ps-3">
+            <div className="border-start border-3 border-primary ps-3">
               {educationDetails.length > 0 &&
                 educationDetails.map((value, index) => (
                   <div key={index}>
                     <h3 className="text-5">{value.title}</h3>
                     <p className="mb-2">
                       {value.place} / {value.yearRange}
-                    </p>
-                    <p className="text-muted">{value.desc}</p>
+                        </p>
+                    <p className="text-muted text-3">{value.descHead}</p>
+                    <p className="text-muted text-2">{value.desc}</p>
+                    <p className="text-muted text-3">{value.descHead2}</p>
+                    <p className="text-muted text-2">{value.desc2}</p>
                     <hr className="my-4" />
                   </div>
                 ))}
@@ -103,15 +173,16 @@ const Resume = () => {
           {/* My Experience */}
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
             <h2 className="text-7 fw-600 mb-4 pb-2">My Experience</h2>
-            <div className="border-start border-2 border-primary ps-3">
+            <div className="border-start border-3 border-primary ps-3">
               {experienceDetails.length > 0 &&
                 experienceDetails.map((value, index) => (
                   <div key={index}>
                     <h3 className="text-5">{value.title}</h3>
                     <p className="mb-2">
                       {value.place} / {value.yearRange}
-                    </p>
-                    <p className="text-muted">{value.desc}</p>
+                        </p>
+                    <p className="text-muted text-3">{value.descHead}</p>
+                    <p className="text-muted text-1">{value.desc}</p>
                     <hr className="my-4" />
                   </div>
                 ))}
@@ -147,7 +218,7 @@ const Resume = () => {
             href={resumeFile}
             download
           >
-            Download CV
+            Download My Detailed Resume
           </a>
         </p>
       </div>

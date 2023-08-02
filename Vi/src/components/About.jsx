@@ -20,14 +20,14 @@ const AboutUs = () => {
               </span>
             </h2>
             <p className="text-3">
-              I strive to lead my work with <span className="fw-700 shadow">evidence</span>. With data being the evidentiary foundation to all worldly functions,
+              I strive to lead my work with <span className="fw-700 shadow">evidence</span>. As data being the evidentiary foundation to all worldly functions,
               I harness the power of data to transform my past work and future work in software engineering, data & business analytics, and
               product management & development.
             </p>
             <p className="text-3">
                I hold a bachelor's in computer science from Wayne State University in Detroit, Michigan and a master's in business data analytics
                from the University of Windsor in Windsor, Ontario. 
-              Outside of education & work, I love to immerse myself in art and dance - both of which I've been practicing from 5 years old! Favorite color? 
+              Outside of academics & work, I love to immerse myself in art and dance - both of which I've been practicing from 5 years old! Favorite color? 
               I will let you take an educated guess.
             </p>
           </div>

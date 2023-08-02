@@ -50,14 +50,14 @@ const StandardMenuVideoBgIntro = () => {
                   Check Out My Work
                 </Link>
                 <Link
-                  className="btn btn-link text-dark smooth-scroll mt-3"
+                  className="btn btn-link text-dark smooth-scroll mt-3 text-5"
                   smooth="easeInOutQuint"
                   duration={scrollDuration}
                   style={{ cursor: "pointer" }}
                   to="contact"
                 >
-                  Contact Me
-                  <span className="text-4 ms-2">
+                  Hire Me
+                  <span className="text-5 ms-2">
                     <i className="far fa-arrow-alt-circle-down" />
                   </span>
                 </Link>{" "}
