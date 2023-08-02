@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 
+
 import "react-toastify/dist/ReactToastify.css";
 import { Tooltip } from "./Tooltip";
 
@@ -14,10 +15,10 @@ const Contact = () => {
     setSendingMail(true);
     emailjs
       .sendForm(
-        "service_i8Fk3ms",
-        "template_siFcin9",
+        "service_a7mpsjr",
+        "template_p477vbs",
         form.current,
-        "c9HsFgGF0tFWyVnAL"
+        "Af85jq485zsQ28KBe"
       )
       .then(
         (result) => {
@@ -57,71 +58,53 @@ const Contact = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-5 text-center text-lg-start wow fadeInUp">
-            <h2 className="text-10 fw-600 mb-5">Let's get in touch</h2>
-            <p className="text-5 mb-5">
-              I enjoy discussing new projects and design challenges. Please
-              share as much info, as possible so we can get the most out of our
-              first catch-up.
+            <h2 className="text-10 fw-600 mb-5">Let's Get In Touch</h2>
+            <p className="text-3 mb-5">
+              I am open to your ideas, suggestions, and anything you may want to convey to me. 
+              I am also <span className="fw-600 shadow">actively looking for full-time roles</span> , 
+              so if you have any exciting new opportunities for me, feel free to write to me at visshrutha@gmail.com, 
+              connect with me on LinkedIn & Github, or send me a message here.
             </p>
-            <h3 className="text-5 fw-600">Living In:</h3>
+            <p className="text-3 mb-5">
+              Cheers!
+            </p>
+                      {/*<h3 className="text-5 fw-600">Living In:</h3>
             <address className="text-4">
               30 Shacham street, Los Angeles, USA.
             </address>
             <h3 className="text-5 fw-600">Call:</h3>
-            <p className="text-4">(+060) 444 434 444</p>
+            <p className="text-4">(+060) 444 434 444</p> */}
             <ul className="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
-              <li className="social-icons-twitter">
-                <Tooltip text="Twitter" placement="top">
+              <li className="social-icons-linkedin">
+                <Tooltip text="LinkedIn" placement="top">
                   <a
-                    href="https://twitter.com/harnishdesign/"
+                    href="https://www.linkedin.com/in/visshrutha-velumani/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fab fa-twitter" />
-                  </a>
-                </Tooltip>
-              </li>
-              <li className="social-icons-facebook">
-                <Tooltip text="Facebook" placement="top">
-                  <a
-                    href="http://www.facebook.com/harnishdesign/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-facebook" />
-                  </a>
-                </Tooltip>
-              </li>
-              <li className="social-icons-instagram">
-                <Tooltip text="Instagram" placement="top">
-                  <a
-                    href="http://www.instagram.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-instagram" />
+                    <i className="fab fa-linkedin fa-lg" />
                   </a>
                 </Tooltip>
               </li>
               <li className="social-icons-github">
                 <Tooltip text="Github" placement="top">
                   <a
-                    href="http://www.github.com/"
+                    href="https://github.com/VisshruthaV"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fab fa-github" />
+                    <i className="fab fa-github fa-lg" />
                   </a>
                 </Tooltip>
               </li>
-              <li className="social-icons-dribbble">
-                <Tooltip text="Dribbble" placement="top">
+              <li className="social-icons-google">
+                <Tooltip text="Email" placement="top">
                   <a
-                    href="http://www.dribbble.com/harnishdesign/"
+                    href="mailto:visshrutha@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fab fa-dribbble" />
+                    <i className="fab fa-google fa-lg" />
                   </a>
                 </Tooltip>
               </li>
@@ -132,7 +115,7 @@ const Contact = () => {
             data-wow-delay="0.3s"
           >
             <h2 className="text-10 fw-600 text-center text-lg-start mb-5">
-              Estimate your Project?
+              Shoot Me A Message!
             </h2>
             {/* Contact Form */}
             <form
@@ -145,7 +128,7 @@ const Contact = () => {
               <div className="row g-4">
                 <div className="col-12">
                   <label className="form-label" htmlFor="name">
-                    What is Your Name:
+                    Your Name:
                   </label>
                   <input
                     id="name"
@@ -169,13 +152,12 @@ const Contact = () => {
                 </div>
                 <div className="col-12">
                   <label className="form-label" htmlFor="form-message">
-                    How can I Help you?:
+                    How Can I Help You?
                   </label>
                   <textarea
                     id="form-message"
                     name="message"
                     className="form-control py-1"
-                    rows={4}
                     required
                     defaultValue={""}
                   />
