@@ -48,8 +48,8 @@ const Resume = () => {
                     src="images/gcp_badge.png"
                     title="GCP Badge"
                     alt="GCP Badge"
-                    />,
-                    </a>
+                    />
+                    </a>,
     },
   ];
 
