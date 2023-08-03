@@ -43,12 +43,13 @@ const Resume = () => {
       yearRange: "Jan 2023",
       title: "Google Cloud Platform Digital Leader",
       org: "Google Cloud",
-      pic: <img
+      pic: <a href="https://www.credential.net/633ea8e5-c007-4cdc-a3a2-26187d25f086?key=a5b78542116149999da23570c01a64069b152832361094514642bf1f58772f3b" target="_blank"><img
                     className="img-fluid wow heartBeat" data-wow-delay="1.3s"
                     src="images/gcp_badge.png"
-                    title="gcp"
-                    alt="gcp"
+                    title="GCP Badge"
+                    alt="GCP Badge"
                     />,
+                    </a>
     },
   ];
 

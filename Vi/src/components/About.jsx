@@ -44,8 +44,8 @@ const AboutUs = () => {
                   <img
                     className="img-fluid wow heartBeat" data-wow-delay="1.3s"
                     src="images/wayne_logo.png"
-                    title="FAQ"
-                    alt="faq"
+                    title="Wayne State University"
+                    alt="Wayne State University"
                     />{" "}
                 </span>
               {/*</div>*/}
@@ -60,8 +60,8 @@ const AboutUs = () => {
                   <img
                     className="img-fluid wow heartBeat" data-wow-delay="1.3s"
                     src="images/uwin_logo.png"
-                    title="FAQ"
-                    alt="faq"
+                    title="University of Windsor"
+                    alt="University of Windsor"
                     />{" "}
                 </span>
               {/*</div>*/}

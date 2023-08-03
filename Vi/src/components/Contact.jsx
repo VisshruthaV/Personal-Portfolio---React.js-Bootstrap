@@ -71,11 +71,9 @@ const Contact = () => {
               I am open to your ideas, suggestions, and anything you may want to convey to me. 
               I am also <span className="fw-600 shadow">actively looking for full-time roles</span> , 
               so if you have any exciting new opportunities for me, feel free to write to me at visshrutha@gmail.com, 
-              connect with me on LinkedIn & Github, or send me a message here.
+              connect with me on LinkedIn & Github, or send me a message here. Cheers!
             </p>
-            <p className="text-3 mb-5">
-              Cheers!
-            </p>
+            
                       {/*<h3 className="text-5 fw-600">Living In:</h3>
             <address className="text-4">
               30 Shacham street, Los Angeles, USA.

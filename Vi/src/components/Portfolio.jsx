@@ -13,11 +13,10 @@ const Portfolio = () => {
   const htmlElement = document.getElementsByTagName("html")[0];
   const isRtl = htmlElement.getAttribute("dir") === "rtl";
 
-  const filters = {
-    DETAILED: "Details",
-    MOCKUPS: "Mockups",
-    YOUTUBE: "Youtube Videos",
-    VIMEO: "Vimeo Videos",
+    const filters = {
+    BDA: "Data & Business Analytics",
+    SWE: "Software Engineering",
+    PM: "Product Management & Design",
   };
 
   const types = {
@@ -28,7 +27,7 @@ const Portfolio = () => {
 
   const projectsData = [
     {
-      title: "Detailed Project 1",
+      title: "OPMC Responsive Website",
       type: types.DOCUMENT,
       document: {
         projectInfo:
@@ -48,42 +47,85 @@ const Portfolio = () => {
         ],
       },
 
-      thumbImage: "images/projects/project-1.jpg",
+      thumbImage: "images/projects/opmc_demo.gif",
 
-      categories: [filters.DETAILED],
+      categories: [filters.SWE],
     },
     {
-      title: "Mockups Design 1",
-      type: types.IMAGE,
+      title: "Acuitii Mobile App",
+      type: types.DOCUMENT,
+      document: {
+        projectInfo:
+          "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        client: "Ruby Clinton",
+        technologies: "iOS, HTML5, CSS3, PHP, Java",
+        industry: "Art & Design",
+        date: "July 16, 2019",
+        url: {
+          name: "www.example.com",
+          link: "https://www.example.com",
+        },
 
-      thumbImage: "images/projects/project-2.jpg",
-
-      categories: [filters.MOCKUPS],
-    },
-    {
-      title: "YouTube Video",
-      type: types.VIDEO,
-      video: {
-        vimeo: false,
-        id: "PMNnEEEacCg",
-      },
-      thumbImage: "images/projects/project-3.jpg",
-
-      categories: [filters.YOUTUBE],
-    },
-    {
-      title: "Vimeo Video",
-      type: types.VIDEO,
-      video: {
-        vimeo: true,
-        id: "259411563",
+        sliderImages: [
+          "images/projects/project-2.jpg",
+          "images/projects/project-5.jpg",
+        ],
       },
 
-      thumbImage: "images/projects/project-4.jpg",
-      categories: [filters.VIMEO],
+      thumbImage: "images/projects/acuitii_demo.gif",
+
+      categories: [filters.SWE],
     },
     {
-      title: "Detailed Project 2",
+      title: "WSU Degree Scheduler Mobile App",
+      type: types.DOCUMENT,
+      document: {
+        projectInfo:
+          "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        client: "Ruby Clinton",
+        technologies: "iOS, HTML5, CSS3, PHP, Java",
+        industry: "Art & Design",
+        date: "July 16, 2019",
+        url: {
+          name: "www.example.com",
+          link: "https://www.example.com",
+        },
+
+        sliderImages: [
+          "images/projects/project-2.jpg",
+          "images/projects/project-5.jpg",
+        ],
+      },
+      thumbImage: "images/projects/degsched_demo.gif",
+
+      categories: [filters.SWE],
+    },
+    {
+      title: "R Project - Canadian Internet Use Analysis",
+      type: types.DOCUMENT,
+      document: {
+        projectInfo:
+          "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        client: "Ruby Clinton",
+        technologies: "iOS, HTML5, CSS3, PHP, Java",
+        industry: "Art & Design",
+        date: "July 16, 2019",
+        url: {
+          name: "www.example.com",
+          link: "https://www.example.com",
+        },
+
+        sliderImages: [
+          "images/projects/project-2.jpg",
+          "images/projects/project-5.jpg",
+        ],
+      },
+
+      thumbImage: "images/projects/r_demo.gif",
+      categories: [filters.BDA],
+    },
+    {
+      title: "Tableau Project - US Unemployment & Wage Analysis",
       type: types.DOCUMENT,
       document: {
         projectInfo:
@@ -101,16 +143,33 @@ const Portfolio = () => {
           "images/projects/project-2.jpg",
         ],
       },
-      thumbImage: "images/projects/project-5.jpg",
-      categories: [filters.DETAILED],
+      thumbImage: "images/projects/tab_demo.gif",
+      categories: [filters.BDA],
     },
     {
-      title: "Mockups Design 2",
-      type: types.IMAGE,
+      title: "OPMC Product Prototypes & Backlog Tracking",
+      type: types.DOCUMENT,
+      document: {
+        projectInfo:
+          "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        client: "Ruby Clinton",
+        technologies: "iOS, HTML5, CSS3, PHP, Java",
+        industry: "Art & Design",
+        date: "July 16, 2019",
+        url: {
+          name: "www.example.com",
+          link: "https://www.example.com",
+        },
 
-      thumbImage: "images/projects/project-6.jpg",
+        sliderImages: [
+          "images/projects/project-2.jpg",
+          "images/projects/project-5.jpg",
+        ],
+      },
 
-      categories: [filters.MOCKUPS],
+      thumbImage: "images/projects/opmc_pm_demo.gif",
+
+      categories: [filters.PM],
     },
   ];
 
@@ -210,7 +269,7 @@ const Portfolio = () => {
                           onLoad={() => {
                             setimagesLoaded(imagesLoaded + 1);
                           }}
-                          className="img-fluid d-block portfolio-image"
+                          className=""
                           src={project.thumbImage}
                           alt=""
                         />
