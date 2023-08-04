@@ -61,7 +61,7 @@ const Contact = () => {
             <span className="bg-light text-dark px-2 shadow">Contact Me</span>
           </p>
           <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
-            How Can I Be of Value To You?
+            How Can I Be Of Value To You?
           </h2>
           {/* Heading end*/}
         <div className="row">

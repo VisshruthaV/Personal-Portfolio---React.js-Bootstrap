@@ -50,7 +50,7 @@ const ProjectDetailsModal = ({ projectDetails, setIsOpen }) => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 4500,
     responsive: [
       {
@@ -122,11 +122,12 @@ const ProjectDetailsModal = ({ projectDetails, setIsOpen }) => {
                       </div>
                       <div className="col-md-5">
                         <h4 className={"text-4 fw-600"}>Project Info:</h4>
-                        <p>{projectDetails?.document?.projectInfo}</p>
+                        <p className="text-2">{projectDetails?.document?.projectInfo}</p>
+                        <p className="text-2">{projectDetails?.document?.projectInfo2}</p>
                         <h4 className={"text-4 fw-600 mt-4"}>
                           Project Details:
                         </h4>
-                        <ul className={"list-style-2 "}>
+                        <ul className={"list-style-2"}>
                           <li>
                             <span className={"text-dark fw-600 me-2"}>
                               Client:
@@ -152,11 +153,9 @@ const ProjectDetailsModal = ({ projectDetails, setIsOpen }) => {
                             {projectDetails?.document?.date}
                           </li>
                           <li>
-                            <span className={"text-dark fw-600 me-2"}>
-                              URL:
-                            </span>
+                            
                             <a
-                              href={projectDetails?.document?.url?.name}
+                              href={projectDetails?.document?.url?.link}
                               className="btn btn-primary shadow-none rounded-0 px-3 py-1"
                               target="_blank"
                               rel="noopener noreferrer"
@@ -164,7 +163,9 @@ const ProjectDetailsModal = ({ projectDetails, setIsOpen }) => {
                               {projectDetails?.document?.url?.name}
                               <i className="fas fa-external-link-alt ms-1" />
                             </a>
+                            
                           </li>
+                          
                         </ul>
                       </div>
                     </div>
