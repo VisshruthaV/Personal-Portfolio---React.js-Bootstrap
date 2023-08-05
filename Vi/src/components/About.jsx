@@ -74,7 +74,7 @@ const AboutUs = () => {
         <div className="row gy-3 mt-4">
           <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
             <p className="text-muted fw-500 mb-0">Email:</p>
-            <p className="text-4 fw-600 mb-0">
+            <p className="text-3 fw-600 mb-0">
               <a className="link-dark" href="mailto:chat@callum.com">
                 visshrutha@gmail.com
               </a>
@@ -82,11 +82,11 @@ const AboutUs = () => {
           </div>
           <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
             <p className="text-muted fw-500 mb-0">From:</p>
-            <p className="text-4 text-dark fw-600 mb-0">Michigan, USA.</p>
+            <p className="text-3 text-dark fw-600 mb-0">Michigan, USA.</p>
           </div>
           <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
             <p className="text-muted fw-500 mb-0">Currently In:</p>
-            <p className="text-4 text-dark fw-600 mb-0">Ontario, Canada.</p>
+            <p className="text-3 text-dark fw-600 mb-0">Ontario, Canada.</p>
           </div>
         </div>
       </div>

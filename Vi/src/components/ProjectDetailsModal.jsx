@@ -99,13 +99,13 @@ const ProjectDetailsModal = ({ projectDetails, setIsOpen }) => {
                     <div className="row g-4">
                       <div className="col-md-7">
                         <Slider {...settings} ref={sliderRef}>
-                          <div className="item">
+                         {/*  <div className="item">
                             <img
                               className="img-fluid"
                               alt=""
                               src={projectDetails?.thumbImage}
                             />
-                          </div>
+                          </div> */}
                           {projectDetails?.document?.sliderImages?.length > 0 &&
                             projectDetails?.document?.sliderImages?.map(
                               (image, index) => (

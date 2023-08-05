@@ -41,7 +41,7 @@ const Portfolio = () => {
         },
 
         sliderImages: [
-          "images/projects/opmc_web_demo.gif",
+          "images/projects/opmc_swe_slider.gif",
         ],
       },
 
@@ -71,6 +71,7 @@ const Portfolio = () => {
         },
 
         sliderImages: [
+            "images/projects/acuitii_slider.gif",
           "images/projects/acuitii_mode.png",
         ],
        
@@ -101,6 +102,9 @@ const Portfolio = () => {
           link: "https://github.com/VisshruthaV/Java-SQL-Project---DegreeScheduler-Mobile-App",
         },
 
+        sliderImages: [
+          "images/projects/degsched_slider.gif",
+        ],
       },
       thumbImage: "images/projects/degsched_demo.gif",
 
@@ -121,6 +125,7 @@ const Portfolio = () => {
         },
 
         sliderImages: [
+          "images/projects/r_slider.gif",
           "images/projects/r_ques.png",
           "images/projects/r_dec_tree.png",
           "images/projects/r_correlation.png",
@@ -144,6 +149,7 @@ const Portfolio = () => {
           link: "https://github.com/VisshruthaV/Tableau-Project---US-Unemployment-Analysis",
         },
         sliderImages: [
+          "images/projects/tab_slider.gif",
           "images/projects/tab_intro.png",
           "images/projects/tab_trends.png",
           "images/projects/tab_conc.png",
@@ -178,6 +184,7 @@ const Portfolio = () => {
         },
 
         sliderImages: [
+            "images/projects/opmc_pm_slider.gif",
             "images/projects/opmc_kanban.gif",
             "images/projects/opmc_PBS.png",
          
@@ -188,6 +195,8 @@ const Portfolio = () => {
 
       categories: [filters.PM],
     },
+
+
   ];
 
   // initialize an Isotope object with configs
