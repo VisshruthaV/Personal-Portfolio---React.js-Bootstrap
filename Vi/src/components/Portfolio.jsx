@@ -30,7 +30,7 @@ const Portfolio = () => {
       title: "OPMC Responsive Website",
       type: types.DOCUMENT,
       document: {
-        projectInfo: "With most UWindsor clubs having club pages that social media account pages, I had set OPMC apart by creating, developing, and launching our very own responsive & analytics-integrated website that showcases the technological talent that we possess and want to attract. This website has helped OPMC become 1 of 5 official Product Management clubs in Canada, attracted 250+ members, and garnered the attention of Halight Inc.'s Director of Product Management, Sean Bridgeman!",
+        projectInfo: "With most UWindsor clubs having club pages that are social media account pages, I had set OPMC apart by creating, developing, and launching our very own responsive & analytics-integrated website that showcases the technological talent that we possess and want to attract. This website has helped OPMC become 1 of 5 official Product Management clubs in Canada, attracted 250+ members, and garnered the attention of Halight Inc.'s Director of Product Management, Sean Bridgeman!",
         client: "Odette Product Management Club UWindsor",
         technologies: "HTML5, CSS, JavaScript, Figma, Google Analytics, Kanban",
         industry: "Technology & IT Consulting",

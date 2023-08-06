@@ -22,7 +22,7 @@ const AboutUs = () => {
             <p className="text-2">
               I strive to lead my work with <span className="fw-700 shadow">evidence</span>. As data being the evidentiary foundation to all worldly functions,
               I harness the power of data to revolutionalize my past work and future work in software engineering, data & business analytics, and
-              product management & development. I show great <span className="fw-700 shadow">leadership</span> among my past projects and work experience, as I
+              product management & development. I show great <span className="fw-700 shadow">leadership</span> among my projects and work experience, as I
               have helped organizations skyrocket their consumer outreach and retention by <span className="fw-700 shadow">400%</span> and transformed their 
               technological infrastructure that decreased customer churning by <span className="fw-700 shadow">40%</span>.
             </p>
