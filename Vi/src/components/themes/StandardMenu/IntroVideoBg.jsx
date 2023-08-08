@@ -30,7 +30,7 @@ const StandardMenuVideoBgIntro = () => {
                 <h1 className="text-9 fw-300 mb-0 text-uppercase">
                   Hi, I'm <span className="shadow-lg">Vi Velumani</span>, specializing in
                 </h1>
-                <h2 className="text-12 fw-600 text-uppercase mb-0 ms-n1">
+                <h2 className="text-11 fw-600 text-uppercase mb-0 ms-n1">
                   <Typewriter
                     options={{
                       strings: ["Software Engineering", "Data Analytics", "Product Management"],
