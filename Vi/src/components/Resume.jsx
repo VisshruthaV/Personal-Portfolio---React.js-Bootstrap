@@ -29,7 +29,7 @@ const Resume = () => {
                 <li>Operating Systems (Linux & Shell)</li>
                 <li>Engineering Statistics, Calculus, & Linear Algebra</li>
             </ul>,
-      descHead2: "Recognitions / Distinctions: ",
+      descHead2: "Distinctions / Awards: ",
       desc2:
             <ul>
                 <li>2019 WSU Dean's List</li>
