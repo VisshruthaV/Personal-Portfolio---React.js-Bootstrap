@@ -51,7 +51,7 @@ const AboutUs = () => {
               {/*</div>*/}
               <h3 className="text-3 wow rubberBand" data-wow-delay="2s">
                 Bachelor's in <span className="fw-700">Computer Science</span>
-              </h3>
+              </h3><p>Wayne State University - Detroit, MI, USA</p>
             </div>
 
             <div className="featured-box style-4">
@@ -67,7 +67,7 @@ const AboutUs = () => {
               {/*</div>*/}
               <h3 className="text-3 wow rubberBand" data-wow-delay="2s">
                 Master's in <span className="fw-700">Business Data Analytics</span>
-              </h3>
+              </h3><p>University of Windsor - Windsor, ON, Canada</p>
             </div>
           </div>
         </div>
