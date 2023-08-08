@@ -164,6 +164,15 @@ const Resume = () => {
         <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
           A Shortened Summary Of My Resume
         </h2>
+        <p className="text-center mt-5 wow fadeInUp">
+          <a
+            className="btn btn-outline-dark shadow-none rounded-0"
+            href={resumeFile}
+            download
+          >
+            Download My Detailed Resume
+          </a>
+        </p>
         {/* Heading end*/}
         <div className="row g-5 mt-5">
           {/* My Education */}
@@ -239,15 +248,7 @@ const Resume = () => {
               </div>
             ))}
         </div>
-        <p className="text-center mt-5 wow fadeInUp">
-          <a
-            className="btn btn-outline-dark shadow-none rounded-0"
-            href={resumeFile}
-            download
-          >
-            Download My Detailed Resume
-          </a>
-        </p>
+        
       </div>
     </section>
   );
