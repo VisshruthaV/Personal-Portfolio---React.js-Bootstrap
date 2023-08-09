@@ -33,7 +33,7 @@ const StandardMenuVideoBgIntro = () => {
                 <h2 className="text-11 fw-600 text-uppercase mb-0 ms-n1">
                   <Typewriter
                     options={{
-                      strings: ["Software Engineering", "Data Analytics", "Product Management"],
+                      strings: ["Product Management", "Software Engineering", "Data Analytics"],
                       autoStart: true,
                       loop: true,
                     }}
