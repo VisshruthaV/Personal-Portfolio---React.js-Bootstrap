@@ -22,10 +22,15 @@ const AboutUs = () => {
             <p className="text-2">
               I strive to lead my work with <span className="fw-700 shadow">evidence</span>. As data being the evidentiary foundation to all worldly functions,
               I harness the power of data to revolutionalize my past work and future work in software engineering, data & business analytics, and
-              product management & development. I show great <span className="fw-700 shadow">leadership</span> among my projects and work experience, as I
-              have helped organizations skyrocket their consumer outreach and retention by <span className="fw-700 shadow">400%</span> and transformed their 
-              technological infrastructure that decreased customer churning by <span className="fw-700 shadow">40%</span>.
+              product management & development.
             </p>
+            <p className="text-2">
+            Having <span className="fw-700 shadow">1.5 years</span> of experience in software engineering and <span className="fw-700 shadow">1+ years</span> of experience in product management & data analytics,
+              I show great <span className="fw-700 shadow">leadership</span> among my projects and work experience, as I
+              have helped organizations skyrocket their customer & product growth by <span className="fw-700 shadow">400%</span> and transformed their 
+              technological infrastructure that decreased customer churning by <span className="fw-700 shadow">40%</span>.
+              </p>
+
             <p className="text-2">
                I hold a bachelor's in <span className="fw-700 shadow">computer science</span> from Wayne State University in Detroit, Michigan and a master's 
                in <span className="fw-700 shadow">business data analytics</span> from the University of Windsor in Windsor, Ontario. 
