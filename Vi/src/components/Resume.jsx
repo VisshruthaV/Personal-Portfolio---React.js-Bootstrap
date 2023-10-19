@@ -56,7 +56,7 @@ const Resume = () => {
 
   const experienceDetails = [
     {
-      yearRange: "Oct 2022 - Jul 2023",
+      yearRange: "Oct 2022 - Aug 2023",
       title: "Director of Technology & Product Owner",
       place: "Odette Product Management Club",
       descHead: "Key Achievements: ",
