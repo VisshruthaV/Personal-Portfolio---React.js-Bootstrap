@@ -56,7 +56,7 @@ const StandardMenuVideoBgIntro = () => {
                   style={{ cursor: "pointer" }}
                   to="contact"
                 >
-                  Hire Me
+                  Contact Me
                   <span className="text-5 ms-2">
                     <i className="far fa-arrow-alt-circle-down" />
                   </span>

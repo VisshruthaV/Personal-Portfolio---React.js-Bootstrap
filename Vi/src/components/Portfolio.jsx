@@ -161,14 +161,14 @@ const Portfolio = () => {
       categories: [filters.BDA],
     },
     {
-      title: "OPMC Product Prototypes & Backlog Tracking",
+      title: "OPMC Product Prototypes & Backlog Grooming",
       type: types.DOCUMENT,
       document: {
         projectInfo: "As Director of Technology & Product Owner, I took the OPMC website from a static product to an automated, data-driven, and dynamic product by creating and implementing Google Analytics functionalities. I also led the tech team (consisting of 4 other members) through the product development life-cycle with SDLC tools under an agile environment, leading to an 80% reduction in manual tracking and improved UI/UX. I worked on:",
         projectInfo2: <ul>
-              <li>Product Prototyping (Figma wireframe & mock-ups)</li>
+              <li>Product Prototyping (Figma wireframes & mock-ups)</li>
               <li>Product & Work Breakdown Structures / Roadmaps</li>
-              <li>Product Backlog Tracking</li>
+              <li>Product Backlog Grooming</li>
               <li>Metrics & KPI Analysis</li>
               <li>A/B & QA Testing</li>
               <li>Leading daily stand-ups, iteration planning, and sprint retrospective meetings</li>

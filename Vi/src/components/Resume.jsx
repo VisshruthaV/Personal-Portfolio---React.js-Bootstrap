@@ -54,7 +54,14 @@ const Resume = () => {
         },
     ];
 
-  const experienceDetails = [
+    const experienceDetails = [
+    {
+      yearRange: "Jan 2024 - Present",
+      title: "Product Manager",
+      place: "Siemens Canada - RuggedCom",
+      
+            
+    },
     {
       yearRange: "Oct 2022 - Aug 2023",
       title: "Director of Technology & Product Owner",

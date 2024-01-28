@@ -69,8 +69,7 @@ const Contact = () => {
             <h2 className="text-6 fw-600 mb-5">Let's Get In Touch</h2>
             <p className="text-3 mb-5">
               I am open to your ideas, suggestions, and anything you may want to convey to me. 
-              I am also <span className="fw-600 shadow">actively looking for full-time roles</span> , 
-              so if you have any exciting new opportunities for me, feel free to write to me at visshrutha@gmail.com, 
+              If you have any exciting new opportunities / projects for me, feel free to write to me at visshrutha@gmail.com, 
               connect with me on LinkedIn & Github, or send me a message here. Cheers!
             </p>
             

@@ -25,7 +25,7 @@ const CallToAction = () => {
                 duration={scrollDuration}
                 to="contact"
               >
-                Hire Me!
+                Contact Me!
               </Link>{" "}
             </div>
           </div>
