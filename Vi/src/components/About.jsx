@@ -40,6 +40,25 @@ const AboutUs = () => {
               Outside of academics & work, I love to immerse myself in art and dance - both of which I've been practicing from 5 years old! Favorite color? 
               I will let you take an educated guess.
             </p>
+
+            <div className="row gy-3 mt-4">
+          <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+            <p className="text-muted fw-500 mb-0">Email:</p>
+            <p className="text-3 fw-600 mb-0">
+              <a className="link-dark" href="mailto:visshrutha@gmail.com">
+                visshrutha@gmail.com
+              </a>
+            </p>
+          </div>
+          <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+            <p className="text-muted fw-500 mb-0">From:</p>
+            <p className="text-3 text-dark fw-600 mb-0">Michigan, USA.</p>
+          </div>
+          <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+            <p className="text-muted fw-500 mb-0">Currently In:</p>
+            <p className="text-3 text-dark fw-600 mb-0">Ontario, Canada.</p>
+          </div>
+        </div>
           </div>
 
           <div
@@ -95,7 +114,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <div className="row gy-3 mt-4">
+        {/* <div className="row gy-3 mt-4">
           <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
             <p className="text-muted fw-500 mb-0">Email:</p>
             <p className="text-3 fw-600 mb-0">
@@ -112,7 +131,7 @@ const AboutUs = () => {
             <p className="text-muted fw-500 mb-0">Currently In:</p>
             <p className="text-3 text-dark fw-600 mb-0">Ontario, Canada.</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
