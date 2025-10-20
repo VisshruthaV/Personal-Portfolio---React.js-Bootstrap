@@ -40,25 +40,6 @@ const AboutUs = () => {
               Outside of academics & work, I love to immerse myself in art and dance - both of which I've been practicing from 5 years old! Favorite color? 
               I will let you take an educated guess.
             </p>
-
-            <div className="row gy-3 mt-10">
-          <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-            <p className="text-muted fw-500 mb-0">Email:</p>
-            <p className="text-3 fw-600 mb-0">
-              <a className="link-dark" href="mailto:visshrutha@gmail.com">
-                visshrutha@gmail.com
-              </a>
-            </p>
-          </div>
-          <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
-            <p className="text-muted fw-500 mb-0">From:</p>
-            <p className="text-3 text-dark fw-600 mb-0">Michigan, USA.</p>
-          </div>
-          <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
-            <p className="text-muted fw-500 mb-0">Currently In:</p>
-            <p className="text-3 text-dark fw-600 mb-0">Ontario, Canada.</p>
-          </div>
-        </div>
           </div>
 
           <div
@@ -80,22 +61,6 @@ const AboutUs = () => {
                 Current role in <span className="fw-700">Product Management</span>
               </h3><p>Siemens Ruggedcom - Concord, ON, Canada</p>
             </div>
-            
-            <div className="featured-box style-4">
-              {/*<div className="featured-box-icon text-25 fw-500 bg-primary rounded-circle">*/}
-                <span className="wow heartBeat" data-wow-delay="1.3s">
-                  <img
-                    className="img-fluid wow heartBeat" data-wow-delay="1.3s"
-                    src="images/wayne_logo.png"
-                    title="Wayne State University"
-                    alt="Wayne State University"
-                    />{" "}
-                </span>
-              {/*</div>*/}
-              <h3 className="text-3 wow rubberBand" data-wow-delay="2s">
-                Bachelor's in <span className="fw-700">Computer Science</span>
-              </h3><p>Wayne State University - Detroit, MI, USA</p>
-            </div>
 
             <div className="featured-box style-4">
                {/*<div className="featured-box-icon text-25 fw-500 bg-primary rounded-circle">*/}
@@ -112,9 +77,25 @@ const AboutUs = () => {
                 Master's in <span className="fw-700">Business Data Analytics</span>
               </h3><p>University of Windsor - Windsor, ON, Canada</p>
             </div>
+
+             <div className="featured-box style-4">
+              {/*<div className="featured-box-icon text-25 fw-500 bg-primary rounded-circle">*/}
+                <span className="wow heartBeat" data-wow-delay="1.3s">
+                  <img
+                    className="img-fluid wow heartBeat" data-wow-delay="1.3s"
+                    src="images/wayne_logo.png"
+                    title="Wayne State University"
+                    alt="Wayne State University"
+                    />{" "}
+                </span>
+              {/*</div>*/}
+              <h3 className="text-3 wow rubberBand" data-wow-delay="2s">
+                Bachelor's in <span className="fw-700">Computer Science</span>
+              </h3><p>Wayne State University - Detroit, MI, USA</p>
+            </div>
           </div>
         </div>
-        {/* <div className="row gy-3 mt-4">
+       <div className="row gy-3 mt-4">
           <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
             <p className="text-muted fw-500 mb-0">Email:</p>
             <p className="text-3 fw-600 mb-0">
@@ -131,7 +112,7 @@ const AboutUs = () => {
             <p className="text-muted fw-500 mb-0">Currently In:</p>
             <p className="text-3 text-dark fw-600 mb-0">Ontario, Canada.</p>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );
