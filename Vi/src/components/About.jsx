@@ -47,6 +47,22 @@ const AboutUs = () => {
             data-wow-delay="0.2s"
           >
             <div className="featured-box style-4">
+               {/*<div className="featured-box-icon text-25 fw-500 bg-primary rounded-circle">*/}
+                <span className="wow heartBeat" data-wow-delay="1.3s">
+                  <img
+                    className="img-fluid wow heartBeat" data-wow-delay="1.3s"
+                    src="images/siemens_logo.png"
+                    title="Siemens Canada - Ruggedcom"
+                    alt="Siemens Canada - Ruggedcom"
+                    />{" "}
+                </span>
+              {/*</div>*/}
+              <h3 className="text-3 wow rubberBand" data-wow-delay="2s">
+                Current role in <span className="fw-700">Product Management</span>
+              </h3><p>Siemens Ruggedcom - Concord, ON, Canada</p>
+            </div>
+            
+            <div className="featured-box style-4">
               {/*<div className="featured-box-icon text-25 fw-500 bg-primary rounded-circle">*/}
                 <span className="wow heartBeat" data-wow-delay="1.3s">
                   <img
@@ -83,7 +99,7 @@ const AboutUs = () => {
           <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
             <p className="text-muted fw-500 mb-0">Email:</p>
             <p className="text-3 fw-600 mb-0">
-              <a className="link-dark" href="mailto:chat@callum.com">
+              <a className="link-dark" href="mailto:visshrutha@gmail.com">
                 visshrutha@gmail.com
               </a>
             </p>
