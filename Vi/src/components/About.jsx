@@ -41,7 +41,7 @@ const AboutUs = () => {
               I will let you take an educated guess.
             </p>
 
-            <div className="row gy-3 mt-2">
+            <div className="row gy-3 mt-10">
           <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
             <p className="text-muted fw-500 mb-0">Email:</p>
             <p className="text-3 fw-600 mb-0">
