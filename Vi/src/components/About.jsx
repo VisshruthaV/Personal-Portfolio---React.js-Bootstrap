@@ -26,12 +26,14 @@ const AboutUs = () => {
             </p>
             <p className="text-2">
             Having <span className="fw-700 shadow">1.5 years</span> of experience in software engineering and almost <span className="fw-700 shadow">3 years</span> of experience in product management & data analytics,
-              I show great <span className="fw-700 shadow">leadership</span> among my projects and work experience. In my current product management role at <span className="fw-700 shadow">Siemens Ruggedcom</span>, I oversee the development of the company's 
-              most profitable software (ROS) that runs on a variety of our Layer 2 switches, <span className="fw-700 shadow">accounting for about 70% of the business' revenue</span>. In the past with my projects, clubs, and internships, I've 
-              helped organizations skyrocket their customer & product growth by <span className="fw-700 shadow">400%</span> and transformed their 
+              I show great <span className="fw-700 shadow">leadership</span> among my projects and work experience.
+              </p>
+            <p className="text-2">
+            In my <span className="fw-700 shadow">current product management role at Siemens Ruggedcom</span>, I oversee the development & maintenance of the ROS product line, one of the company's 
+              most profitable operating system software that runs on our Layer 2 switches and <span className="fw-700 shadow">accounts for about 70% of the business' revenue</span>. In the past with my projects, clubs, and internships, I've 
+              also helped organizations skyrocket their customer & product growth by <span className="fw-700 shadow">400%</span> and transformed their 
               technological infrastructure that decreased customer churning by <span className="fw-700 shadow">40%</span>.
               </p>
-
             <p className="text-2">
                I hold a bachelor's in <span className="fw-700 shadow">computer science</span> from Wayne State University in Detroit, Michigan and a master's 
                in <span className="fw-700 shadow">business data analytics</span> from the University of Windsor in Windsor, Ontario. 
