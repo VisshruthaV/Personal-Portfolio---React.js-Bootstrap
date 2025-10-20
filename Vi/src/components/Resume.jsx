@@ -46,7 +46,7 @@ const Resume = () => {
     },
   ];
 
-   /* const certificationsDetails = [
+  {/* const certificationsDetails = [
         {
             yearRange: "Jan 2023",
             title: "Google Cloud Platform Digital Leader",
@@ -60,14 +60,22 @@ const Resume = () => {
                 />
                 </a>,
         },
-    ]; */
+    ]; */}
 
     const experienceDetails = [
     {
       yearRange: "Jan 2024 - Present",
       title: "Product Manager",
       place: "Siemens Canada - RuggedCom",
-      
+      descHead: "Key Achievements: ",
+      desc:
+            <ul>
+                <li>Globally managed the ROS software for Ruggedcom's Layer 2 devices </li>
+                <li>Delivered 5 ROS SW release versions (1 major and 4 minor) </li>
+                <li>Conducted life-cycle planning & product backlog grooming for the ROS product line </li>
+                <li>Forecasted and oversaw Ruggedcom's component end-of-life processes </li>
+                <li>Led and published ROS & ROX's IEC 62443-4-2 declaration of conformity documents </li>
+            </ul>,
             
     },
     {
@@ -107,13 +115,6 @@ const Resume = () => {
            <ul>
                 <li>Resolved 8 bugs and added 4 new game features in 4 months </li>
                 <li>Optimized & reduced app run-time by 75% (2 sec. to 0.5 sec.)</li>
-                <li>Published 4 software documentation</li>
-                    <ul>
-                        <li>Software Requirements Specification </li>
-                        <li>Architecture Flow Models </li>
-                        <li>Sequence Diagrams</li>
-                        <li>UI/UX Design Plans </li>
-                    </ul>,
             </ul>,
     },
   ];
@@ -209,7 +210,7 @@ const Resume = () => {
                   </div>
                 ))}
             </div>
-            <h2 className="text-7 fw-600 mb-4 pb-2"><span className="shadow-sm">My Certifications</span></h2>
+            {/* <h2 className="text-7 fw-600 mb-4 pb-2"><span className="shadow-sm">My Certifications</span></h2>
             <div className="border-start border-3 border-primary ps-3">
               {certificationsDetails.length > 0 &&
                 certificationsDetails.map((value, index) => (
@@ -219,7 +220,7 @@ const Resume = () => {
                     <hr className="my-4" />
                   </div>
                 ))}
-            </div>
+            </div> */}
           </div>
           {/* My Experience */}
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
