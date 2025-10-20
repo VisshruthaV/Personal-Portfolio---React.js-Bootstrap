@@ -15,6 +15,14 @@ const Resume = () => {
                 <li>Predictive Modeling & Decision Making </li>
                 <li>Quantitative & Statistical Analytics </li>
             </ul>,
+      descHead2: "Clubs / Organizations ",
+      desc2:
+            <ul>
+                <li>Odette Product Management Club</li>
+                <ul>
+                  <li>Founded and Established UWindsor's 1st Product Management Club</li>
+                </ul>,
+            </ul>,
     },
     {
       yearRange: "Sep 2018 - Dec 2021",
@@ -38,7 +46,7 @@ const Resume = () => {
     },
   ];
 
-    const certificationsDetails = [
+   /* const certificationsDetails = [
         {
             yearRange: "Jan 2023",
             title: "Google Cloud Platform Digital Leader",
@@ -52,7 +60,7 @@ const Resume = () => {
                 />
                 </a>,
         },
-    ];
+    ]; */
 
     const experienceDetails = [
     {
