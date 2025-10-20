@@ -67,7 +67,7 @@ const StandardMenuVideoBgIntro = () => {
                   {" "}
                   <img
                     className="img-fluid rounded-pill d-block"
-                    src="images/vi-standing-transparent.png"
+                    src="images/vi-sitting-transparent.png"
                     title="I'm Vi"
                     alt="I'm Vi"
                   />
