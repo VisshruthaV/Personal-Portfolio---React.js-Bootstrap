@@ -25,9 +25,10 @@ const AboutUs = () => {
               product management & development.
             </p>
             <p className="text-2">
-            Having <span className="fw-700 shadow">1.5 years</span> of experience in software engineering and <span className="fw-700 shadow">1+ years</span> of experience in product management & data analytics,
-              I show great <span className="fw-700 shadow">leadership</span> among my projects and work experience, as I
-              have helped organizations skyrocket their customer & product growth by <span className="fw-700 shadow">400%</span> and transformed their 
+            Having <span className="fw-700 shadow">1.5 years</span> of experience in software engineering and almost <span className="fw-700 shadow">3 years</span> of experience in product management & data analytics,
+              I show great <span className="fw-700 shadow">leadership</span> among my projects and work experience. In my current product management role at <span className="fw-700 shadow">Siemens Ruggedcom</span>, I oversee the development of the company's 
+              most profitable software (ROS) that runs on a variety of our Layer 2 switches, <span className="fw-700 shadow">accounting for about 70% of the business' revenue</span>. In the past with my projects, clubs, and internships, I've 
+              helped organizations skyrocket their customer & product growth by <span className="fw-700 shadow">400%</span> and transformed their 
               technological infrastructure that decreased customer churning by <span className="fw-700 shadow">40%</span>.
               </p>
 
